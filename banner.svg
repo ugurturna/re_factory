@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b0d13"/><stop offset="1" stop-color="#161a2a"/></linearGradient>
+    <linearGradient id="tx" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ff4d6d"/><stop offset=".55" stop-color="#7c5cff"/><stop offset="1" stop-color="#22d3ee"/></linearGradient>
+    <radialGradient id="g1" cx=".2" cy=".2" r=".6"><stop offset="0" stop-color="#7c5cff" stop-opacity=".35"/><stop offset="1" stop-color="#7c5cff" stop-opacity="0"/></radialGradient>
+    <radialGradient id="g2" cx=".85" cy=".1" r=".5"><stop offset="0" stop-color="#ff4d6d" stop-opacity=".3"/><stop offset="1" stop-color="#ff4d6d" stop-opacity="0"/></radialGradient>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffb3c7"/><stop offset=".5" stop-color="#c97fa6"/><stop offset="1" stop-color="#1d1a2e"/></linearGradient>
+    <clipPath id="scr"><rect x="908" y="52" width="164" height="316" rx="22"/></clipPath>
+  </defs>
+  <rect width="1200" height="420" fill="url(#bg)"/>
+  <rect width="1200" height="420" fill="url(#g1)"/><rect width="1200" height="420" fill="url(#g2)"/>
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif">
+    <rect x="80" y="92" width="210" height="32" rx="16" fill="#ffffff" fill-opacity=".05" stroke="#2a3042"/>
+    <circle cx="100" cy="108" r="5" fill="#22d3ee"/>
+    <text x="114" y="114" fill="#9aa2b6" font-size="15">Personal creator studio</text>
+    <text x="80" y="196" fill="#eef0f6" font-size="62" font-weight="800" letter-spacing="-2">Short videos,</text>
+    <text x="80" y="266" fill="url(#tx)" font-size="62" font-weight="800" letter-spacing="-2">from one message.</text>
+    <text x="80" y="318" fill="#9aa2b6" font-size="21">Plan · footage · beat-synced edit · publish to your own channels</text>
+  </g>
+  <rect x="898" y="42" width="184" height="336" rx="30" fill="#2a3042"/>
+  <g clip-path="url(#scr)">
+    <rect x="908" y="52" width="164" height="316" fill="url(#sky)"/>
+    <circle cx="990" cy="170" r="38" fill="#fff3d6" fill-opacity=".85"/>
+    <polygon points="900,280 990,175 1080,280" fill="#6d5a86"/>
+    <polygon points="972,196 990,175 1008,196" fill="#f4f1f8"/>
+    <rect x="908" y="270" width="164" height="98" fill="#2b2140"/>
+    <circle cx="925" cy="276" r="26" fill="#ffc6d6"/><circle cx="975" cy="272" r="24" fill="#ffb7cb"/>
+    <circle cx="1025" cy="278" r="26" fill="#ffd3df"/><circle cx="1068" cy="270" r="24" fill="#ffbad0"/>
+    <text x="990" y="108" text-anchor="middle" fill="#fff" font-family="Georgia, serif" font-size="15" letter-spacing="4">CHUREITO</text>
+    <rect x="968" y="116" width="44" height="1" fill="#fff"/>
+    <text x="990" y="132" text-anchor="middle" fill="#fff" font-family="Segoe UI, Arial, sans-serif" font-size="7.5" letter-spacing="2">FUJIYOSHIDA · JAPAN</text>
+    <rect x="920" y="352" width="140" height="3" rx="1.5" fill="#fff" fill-opacity=".3"/><rect x="920" y="352" width="70" height="3" rx="1.5" fill="#fff"/>
+  </g>
+</svg>
